@@ -7,8 +7,8 @@
 
 .nlink{
   margin-right: 25px;
- margin-left : 25px;
   text-transform: uppercase;
+  margin-left : 25px;
   border-top: 3.8px solid #212529;
 }
 .nlink:hover{
