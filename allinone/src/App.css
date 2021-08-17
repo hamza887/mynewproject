@@ -9,3 +9,8 @@
 li{
   text-transform: uppercase;
 }
+a{
+  margin-right: 25px;
+ margin-left : 25px;
+  color: red !important; 
+}
