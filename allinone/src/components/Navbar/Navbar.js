@@ -11,15 +11,15 @@ export default function Navbar(){
         <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
             <li className="nav-item active">
-              <a className="nav-link nlink" href="#">Home <span className="sr-only">(current)</span></a>
+              <a className="nav-link nlink" href="#">Home </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item active">
               <a className="nav-link nlink" href="#">Link</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item active">
               <a className="nav-link nlink" href="#">link 2</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item active">
               <a className="nav-link nlink" href="#">link 2</a>
             </li>
           </ul>
