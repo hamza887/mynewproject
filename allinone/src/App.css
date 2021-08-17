@@ -3,14 +3,14 @@
 .nav-link{
   font-weight: 500; 
   letter-spacing: 1px;
-  text-transform: uppercase;
 }
 
-li{
-  text-transform: uppercase;
-}
-a{
+.nlink{
   margin-right: 25px;
  margin-left : 25px;
-  color: red !important; 
+  text-transform: uppercase;
+  border-top: 3.8px solid #212529;
 }
+.nlink:hover{
+  border-top: 3.8px solid green !important;
+} 
