@@ -1,0 +1,11 @@
+/* //////////////  NAVABAR /////////////////*/
+
+.nav-link{
+  font-weight: 500; 
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+li{
+  text-transform: uppercase;
+}

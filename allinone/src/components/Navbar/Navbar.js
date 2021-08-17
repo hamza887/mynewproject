@@ -1,6 +1,8 @@
 export default function Navbar(){
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div className='container'>
+
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -17,8 +19,12 @@ export default function Navbar(){
             <li className="nav-item">
               <a className="nav-link" href="#">link 2</a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">link 2</a>
+            </li>
           </ul>
         </div>
+            </div>
       </nav>
     )
 }
