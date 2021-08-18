@@ -21,7 +21,7 @@ const formSearchSubmit=(e)=>{
 
 
     return(
-        <div className='container'>
+        <div className='container book'>
           <h2 className='first-heading'>hello thios is a book search option</h2>
           <p className='para-heading'>Search for any FAV book you like and download and read the PDF</p>
           <div className='search-option'>
@@ -33,12 +33,14 @@ const formSearchSubmit=(e)=>{
           </form>
           <div>
           </div>
+         
           {searchresult.map(mybooks=>{
             return(
-              <div>
+              <div className='flex-books'>
               <img src={mybooks.volumeInfo.imageLinks.thumbnail} alt='pic not avialble'></img>
-              <h2>{mybooks.volumeInfo.title}</h2>
-              <p>{mybooks.volumeInfo.description}</p>
+              <h3>{mybooks.volumeInfo.title}</h3>
+              <p className='des-book'>{mybooks.volumeInfo.authors}</p>
+              <p className=''>{mybooks.volumeInfo.categories}</p>
               <a target='_blank' href={mybooks.volumeInfo.previewLink} className=' btn btn-danger'>Look PDF</a>
               </div>
             )
