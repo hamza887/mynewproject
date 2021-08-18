@@ -24,7 +24,7 @@ export default function Pokemon(){
 
 
     return(
-        <div className=' pokemon'>
+        <div id='pokemons' className=' pokemon'>
         <h2 className='first-heading'>Search For your FAV Pokemons</h2>
         <p className='para-heading'>Get All of Your Fav Pokemons at One Place</p>
         <div className='search-option'>

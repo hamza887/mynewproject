@@ -21,7 +21,7 @@ export default function Crypto(){
   
 
     return (
-        <div className=' crypto'>
+        <div id='cryptos' className=' crypto'>
           <h2 className='first-heading'>Search Your FAV Crypto</h2>
           <p className='para-heading'>Look for all of your Fav crypto currency at one Place</p>
           <div className='search-option'>

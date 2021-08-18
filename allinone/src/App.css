@@ -19,7 +19,7 @@
 
 .header-head{
  background: url('../src/components/Header/header3.jpg') no-repeat;
-  height: 80vh;
+  height: 100vh;
   background-size: cover;
   text-align: center;
   background-position: center;
@@ -34,7 +34,7 @@
  
 }
 .myhead1{
-  padding-top: 16%;
+  padding-top: 23%;
 }
 
 /*                         HEADINGS                 */
@@ -48,7 +48,7 @@
   margin-top: 0;
 }
 .first-heading{
-  margin-top: 30px;
+  margin-top: 60px;
   font-family: 'Times New Roman', Times, serif;
   text-shadow: 1px 1px 2px #000000;
   font-weight: 300;
@@ -61,7 +61,7 @@
 
 .search-option{
   text-align: center;
-  margin-top: 30px;;
+  margin-top: 30px;
   
 }
 .btn-option{
@@ -86,9 +86,37 @@
 }
 
 .book{
-  height: 90vh;
+  height: 110vh;
+  overflow: scroll;
+  border-top: 10px solid black;
+  overflow-x: auto;
+  overflow-y:auto;
+  background: url('../src/components/Books/books4.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.pokemon{
+  border-top: 10px solid black;
+  margin-top: 20px;
+  height: 110vh;
   overflow: scroll;
   overflow-x: auto;
   overflow-y:auto;
-  background: url('../src/components/Books/books.jpg') no-repeat;
+  background: url('../src/components/Books/poke4.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.crypto{
+  height: 110vh;
+  overflow: scroll;
+  border-top: 10px solid black;
+  overflow-x: auto;
+  overflow-y:auto;
+  background: url('https://wallpaperaccess.com/full/395434.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+
 }
