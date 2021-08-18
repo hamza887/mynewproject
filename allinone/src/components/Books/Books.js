@@ -22,22 +22,24 @@ const formSearchSubmit=(e)=>{
 
     return(
         <div className='container'>
-          <h2>hello thios is a book search option</h2>
-          <p>Search for any FAV book you like and download and read the PDF</p>
+          <h2 className='first-heading'>hello thios is a book search option</h2>
+          <p className='para-heading'>Search for any FAV book you like and download and read the PDF</p>
+          <div className='search-option'>
           <form onSubmit={formSearchSubmit}>
             <div>
-              <input type='text' onChange={SearchSubmit} placeholder='search books'/>
+              <input className='search-bar' type='text' onChange={SearchSubmit} placeholder='search books'/>
             </div>
-            <button type='submit' className='btn btn-danger'>Search books</button>
+            <button type='submit' className='btn btn-danger btn-option'>Search books</button>
           </form>
           <div>
+          </div>
           {searchresult.map(mybooks=>{
             return(
               <div>
               <img src={mybooks.volumeInfo.imageLinks.thumbnail} alt='pic not avialble'></img>
               <h2>{mybooks.volumeInfo.title}</h2>
               <p>{mybooks.volumeInfo.description}</p>
-              <a target='_blank' href={mybooks.volumeInfo.previewLink} className=' btn btn-danger'>Buy Book</a>
+              <a target='_blank' href={mybooks.volumeInfo.previewLink} className=' btn btn-danger'>Look PDF</a>
               </div>
             )
           })}

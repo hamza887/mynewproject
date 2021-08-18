@@ -12,7 +12,7 @@
   border-top: 3.8px solid #212529;
 }
 .nlink:hover{
-  border-top: 3.8px solid green !important;
+  border-top: 3.8px solid #eb4657 !important;
 } 
 
 /* //////////////  HEADER /////////////////  */
@@ -36,3 +36,42 @@
 .myhead1{
   padding-top: 16%;
 }
+
+/*                         HEADINGS                 */
+
+.para-heading{
+  font-size: 130%;
+  font-weight: 550;
+  font-family: 'Times New Roman', Times, serif;
+  /* text-shadow: 1px 1px 1px #000000; */
+  text-align: center;
+  margin-top: 0;
+}
+.first-heading{
+  margin-top: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 1px 1px 2px #000000;
+  font-weight: 300;
+  font-size: 350%;
+  text-align: center;
+
+}
+
+/* ////////////////////////////BOOKS//////////////////////// */
+
+.search-option{
+  text-align: center;
+  margin-top: 30px;;
+  
+}
+.btn-option{
+  margin-top: 20px;
+}
+.search-bar{
+  border: 3px solid #eb4657;
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 22px;
+}
+
