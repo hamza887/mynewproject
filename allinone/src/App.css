@@ -88,4 +88,7 @@
 .book{
   height: 90vh;
   overflow: scroll;
+  overflow-x: auto;
+  overflow-y:auto;
+  /* background: url('../src/components/Books/books.jpg') no-repeat; */
 }
