@@ -3,6 +3,8 @@ import './App.css';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import Books from './components/Books/Books'
+import Pokemon from './components/Pokemon/Pokemon';
+import Crypto from './components/Crypto/Crypto'
 
 function App() {
   return (
@@ -10,6 +12,9 @@ function App() {
      <Navbar/>
      <Header/>
      <Books/>
+     <Pokemon/>
+     <Crypto/>
+     
     </div>
   );
 }

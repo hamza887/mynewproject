@@ -90,5 +90,5 @@
   overflow: scroll;
   overflow-x: auto;
   overflow-y:auto;
-  /* background: url('../src/components/Books/books.jpg') no-repeat; */
+  background: url('../src/components/Books/books.jpg') no-repeat;
 }

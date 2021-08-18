@@ -22,7 +22,7 @@ const formSearchSubmit=(e)=>{
 
     return(
         <div className='container book'>
-          <h2 className='first-heading'>hello thios is a book search option</h2>
+          <h2 className='first-heading'>Search Your FAV Book</h2>
           <p className='para-heading'>Search for any FAV book you like and download and read the PDF</p>
           <div className='search-option'>
           <form onSubmit={formSearchSubmit}>
