@@ -31,7 +31,16 @@ const formSearchSubmit=(e)=>{
             <button type='submit' className='btn btn-danger'>Search books</button>
           </form>
           <div>
-
+          {searchresult.map(mybooks=>{
+            return(
+              <div>
+              <img src={mybooks.volumeInfo.imageLinks.thumbnail} alt='pic not avialble'></img>
+              <h2>{mybooks.volumeInfo.title}</h2>
+              <p>{mybooks.volumeInfo.description}</p>
+              <a target='_blank' href={mybooks.volumeInfo.previewLink} className=' btn btn-danger'>Buy Book</a>
+              </div>
+            )
+          })}
           </div>
         </div>
     )
