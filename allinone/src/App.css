@@ -31,17 +31,8 @@
   font-weight: 500;
   font-size: 420%;
   text-shadow: 3px 3px 4px #000000;
+ 
 }
-
-.header-text{
-  align-items: center;
-  text-align: center;
-  top:0;
-  left: 0;
-  right:0;
-  bottom: 0;
-  justify-content: center;
-  flex-direction: column;
-  display: flex;
-  position: absolute;
+.myhead1{
+  padding-top: 17%;
 }
