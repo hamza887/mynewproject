@@ -6,11 +6,11 @@ export default function Crypto(){
     
 
 
-      const SearchSubmit=(e)=>{
+      const cryptoSubmit=(e)=>{
         const mycrypto= e.target.value;
         setcryptoSearch(mycrypto);
    };
-   const formSearchSubmit=(e)=>{
+   const formSearchCrypto=(e)=>{
     e.preventDefault()
     axios.get( 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=25&page=1&sparkline=false')
     .then(hh =>{
@@ -21,13 +21,13 @@ export default function Crypto(){
   
 
     return (
-        <div className='container crypto'>
+        <div className=' crypto'>
           <h2 className='first-heading'>Search Your FAV Crypto</h2>
           <p className='para-heading'>Look for all of your Fav crypto currency at one Place</p>
           <div className='search-option'>
-          <form onSubmit={formSearchSubmit}>
+          <form onSubmit={formSearchCrypto}>
             <div>
-              <input className='search-bar' type='text' onChange={SearchSubmit} placeholder='search books'/>
+              <input className='search-bar' type='text' onChange={cryptoSubmit} placeholder='search books'/>
             </div>
             <button type='submit' className='btn btn-danger btn-option'>Your Cryptos</button>
           </form>
